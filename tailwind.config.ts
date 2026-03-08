@@ -99,6 +99,14 @@ export default {
             opacity: "0.5",
           },
         },
+        "hero-zoom": {
+          "0%": {
+            transform: "scale(1)",
+          },
+          "100%": {
+            transform: "scale(1.15)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
