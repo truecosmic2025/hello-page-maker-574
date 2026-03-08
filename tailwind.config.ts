@@ -99,12 +99,21 @@ export default {
             opacity: "0.5",
           },
         },
+        "hero-zoom": {
+          "0%": {
+            transform: "scale(1)",
+          },
+          "100%": {
+            transform: "scale(1.15)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "gradient": "gradient 8s ease infinite",
         "pulse-slow": "pulse-slow 4s ease-in-out infinite",
+        "hero-zoom": "hero-zoom 20s ease-in-out infinite alternate",
       },
     },
   },
