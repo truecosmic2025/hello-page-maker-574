@@ -1,6 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Clock, AlertCircle } from "lucide-react";
+import { AlertCircle } from "lucide-react";
 import { CountdownTimer } from "@/components/CountdownTimer";
 
 export const ConsultSection = () => {

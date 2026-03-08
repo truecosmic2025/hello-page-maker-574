@@ -16,8 +16,8 @@ export const FAQSection = () => {
       answer: "Not from the consult. You'll receive a short recap and a recommended coaching route where your full plan is built.",
     },
     {
-      question: "Do I need Neville experience?",
-      answer: "No—Valentine keeps it simple and practical.",
+      question: "Do I need Neville Goddard experience?",
+      answer: "No—Isaac keeps it simple, direct, and practical.",
     },
     {
       question: "Is it really free?",

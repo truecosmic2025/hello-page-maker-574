@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Sparkles, CheckCircle2 } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 
 export const Hero = () => {
@@ -24,24 +22,24 @@ export const Hero = () => {
       <div className="container relative z-10 max-w-5xl mx-auto text-center">
         {/* Main headline */}
         <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-          Become the Version of You That Life Says{" "}
+          Awaken to Who You{" "}
           <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
-            "Yes" To
+            Really Are
           </span>
         </h1>
 
         {/* Subheadline */}
         <p className="mb-8 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Reserve a <span className="text-primary font-semibold">free 30-minute clarity consult</span> with <span className="font-semibold text-foreground">Valentine Wairimu</span>. We'll spot the real block, choose <span className="font-semibold text-foreground">one technique</span> to start with, and share the <span className="font-semibold text-foreground">right coaching path</span> to build momentum—rooted in <span className="font-semibold text-foreground">self-concept and identity reset</span>.
+          Reserve a <span className="text-primary font-semibold">free 30-minute clarity consult</span> with <span className="font-semibold text-foreground">Isaac Adegbe</span>. We'll identify your primary bottleneck, choose <span className="font-semibold text-foreground">one technique</span> to begin with, and map out the <span className="font-semibold text-foreground">right coaching path</span> to build momentum—rooted in <span className="font-semibold text-foreground">the Law of Assumption and mind control</span>.
         </p>
 
         {/* Trust badges */}
         <div className="flex flex-wrap justify-center gap-4 mb-10 text-sm text-muted-foreground">
-          <span>Warm, judgment-free</span>
+          <span>Honest, direct guidance</span>
           <span className="text-muted-foreground/50">•</span>
-          <span>Neville methods</span>
+          <span>Neville Goddard methods</span>
           <span className="text-muted-foreground/50">•</span>
-          <span>Micro steps that stick</span>
+          <span>Mind control & attention mastery</span>
         </div>
 
         {/* CTA Buttons */}
@@ -59,7 +57,7 @@ export const Hero = () => {
             className="border-foreground/30 text-foreground hover:bg-foreground/10 px-8 text-lg h-14"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            See How Self-Concept Changes Results
+            See How the Law of Assumption Works
           </Button>
         </div>
 

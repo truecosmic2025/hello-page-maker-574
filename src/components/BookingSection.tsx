@@ -11,7 +11,7 @@ export const BookingSection = () => {
     },
     {
       number: "2",
-      title: "Pick a time with Cheryl",
+      title: "Pick a time with Isaac",
       description: "Choose a convenient slot from our calendar",
     },
     {
