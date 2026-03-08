@@ -11,8 +11,8 @@ export const MethodSection = () => {
     },
     {
       number: "2",
-      title: "Edit the inner label",
-      description: "Select one replacement line that matches the new role you're stepping into.",
+      title: "Master your attention",
+      description: "Learn to direct your energy and focus where it truly matters.",
     },
     {
       number: "3",
@@ -38,10 +38,10 @@ export const MethodSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Why <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Self-Concept & Identity Reset</span> Work
+            Why <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">the Law of Assumption</span> Works
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Valentine's working model
+            Isaac's working model
           </p>
           <div className="max-w-md mx-auto mb-8">
             <img 
@@ -70,7 +70,7 @@ export const MethodSection = () => {
 
         <div className="bg-card/30 backdrop-blur border border-primary/30 rounded-lg p-6 mb-8">
           <p className="text-lg text-foreground text-center">
-            <span className="font-semibold">Outcome:</span> Your self-definition stops arguing with your goal—so aligned choices come easier.
+            <span className="font-semibold">Outcome:</span> Your imagination aligns with your desire—so your reality begins to reflect it naturally.
           </p>
         </div>
 
