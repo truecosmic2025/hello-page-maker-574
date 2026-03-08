@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 py-20">
       {/* Hero background image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-hero-zoom"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
       
