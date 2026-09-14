@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-background.jpg";
+import { openClauddeChat } from "@/lib/claudde";
 
 export const Hero = () => {
   return (
@@ -47,7 +48,10 @@ export const Hero = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 text-lg h-14"
-            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+              openClauddeChat();
+            }}
           >
             Book Your Clarity Consultation
           </Button>
