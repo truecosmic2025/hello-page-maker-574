@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { AlertCircle } from "lucide-react";
 import { CountdownTimer } from "@/components/CountdownTimer";
+import { openClauddeChat } from "@/lib/claudde";
 
 export const ConsultSection = () => {
   const consultSteps = [
@@ -69,7 +70,10 @@ export const ConsultSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-12"
-            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+              openClauddeChat();
+            }}
           >
             Claim Your Free Consultation
           </Button>
