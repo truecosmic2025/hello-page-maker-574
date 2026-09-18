@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { openClauddeChat } from "@/lib/claudde";
 import { Check } from "lucide-react";
 import innerPeace from "@/assets/inner-peace.jpg";
 
@@ -57,7 +58,10 @@ export const InnerConversationsSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
-            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+              openClauddeChat();
+            }}
           >
             Try It with Isaac — Free
           </Button>

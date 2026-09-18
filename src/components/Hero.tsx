@@ -59,7 +59,10 @@ export const Hero = () => {
             size="lg" 
             variant="outline" 
             className="border-foreground/30 text-foreground hover:bg-foreground/10 px-8 text-lg h-14"
-            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+              openClauddeChat();
+            }}
           >
             See How the Law of Assumption Works
           </Button>
